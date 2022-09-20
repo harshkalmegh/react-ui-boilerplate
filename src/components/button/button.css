@@ -1,0 +1,25 @@
+.ButtonLight {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-color: gray;
+  border-width: thin;
+  margin: 5px;
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: smaller;
+}
+
+.ButtonDark {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: thin;
+  margin: 5px;
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: smaller;
+}
