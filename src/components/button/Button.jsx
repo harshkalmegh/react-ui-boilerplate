@@ -4,8 +4,10 @@ import "./button.css";
 function Button() {
   return (
     <>
-      <button className="ButtonLight">Button Light</button>
-      <button className="ButtonDark">Button Dark</button>
+      <button>Button Light</button>
+      <button style={{ backgroundColor: "black", color: "white" }}>
+        Button Dark
+      </button>
     </>
   );
 }
