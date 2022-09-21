@@ -1,25 +1,61 @@
 .ButtonLight {
-  cursor: pointer;
   padding: 8px 16px;
   border-radius: 4px;
-  border-color: gray;
-  border-width: thin;
+  border: none;
+  outline: none;
   margin: 5px;
   font-family: system-ui;
+  cursor: pointer;
   font-weight: 500;
   font-size: smaller;
+  transition: all 0.3s;
+  text-decoration: none;
+  box-shadow: 3px 3px 10px 1px rgb(0 0 0 / 24%);
+}
+
+.ButtonLight:hover {
+  box-shadow: 0px 0px 8px 2px lightgrey;
+}
+
+.ButtonLight:active {
+  transform: scale(0.98);
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%),
+    0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
+
+.ButtonLight:focus-visible {
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
 }
 
 .ButtonDark {
-  cursor: pointer;
-  padding: 8px 16px;
-  border-radius: 4px;
   background-color: black;
   color: white;
-  border-color: white;
-  border-width: thin;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
   margin: 5px;
   font-family: system-ui;
+  cursor: pointer;
   font-weight: 500;
   font-size: smaller;
+  transition: all 0.3s;
+  text-decoration: none;
+  box-shadow: 3px 3px 10px 1px rgb(0 0 0 / 24%);
+}
+
+.ButtonDark:hover {
+  box-shadow: 0px 0px 8px 2px lightgrey;
+}
+
+.ButtonDark:active {
+  transform: scale(0.98);
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%),
+    0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
+
+.ButtonDark:focus-visible {
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
 }
